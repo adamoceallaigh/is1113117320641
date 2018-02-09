@@ -1,0 +1,394 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body,html{
+  width:100%;
+  height:100%
+}
+
+.container{
+  margin:4%;
+}
+
+.headings{
+  text-align:center;
+  position:absolute;
+  top:10%;
+  left:40%;
+}
+
+.headings h1{
+  font-family:Playfair Display SC;
+  font-weight:bold;
+  color:;
+  margin-bottom:4%;
+  font-size: 45px;
+}
+
+.headings h2{
+  font-family: Playfair Display SC;
+}
+
+hr{
+  position:absolute;
+  top:30%;
+  left:22%;
+  border: 1px solid black;
+  opacity: .4;
+  width: 60%;
+}
+
+
+.box{
+  position:absolute;
+  width:60%;
+  height: 70%;
+  top:35%;
+  left: 22%;
+}
+
+.box .left{
+  position:relative;
+  margin: 2%;
+  top:4%;
+}
+
+.box .left h2{
+  postion:relative;
+  margin-bottom:2%;
+  color:black;
+  font-size:30px;
+  font-family: Playfair Display SC;
+}
+.box .left p{
+  font-family: Indie Flower;
+  font-size: 15px;
+}
+.box .middle{
+  position:relative;
+  width:35%;
+  height:55%;
+  top:-75%;
+  left:35%;
+}
+
+.box .middle img{
+  padding:2%;
+  border-radius:50%;
+  width:100%;
+  position:relative;
+  opacity: .9;
+  left:-10%;
+}
+
+.box .right{
+  padding:1%;
+  position:relative;
+  top:-115%;
+  left:105%;
+  width:75%;
+  height:130%;
+}
+
+.box .right h2{
+  margin-top:10%;
+  margin-left:4%;
+  font-family: Shrikhand;
+}
+
+.box .right h1{
+  margin:2%;
+  text-align:center;
+  font-family: Playfair Display SC;
+}
+
+.box .right p{
+  margin-left:4%;
+  font-family: Indie Flower;
+  font-size: 20px;
+}
+
+@media only screen and (max-width:1080px){
+  .box .right{
+    position:absolute;
+    top:-30%;
+  }
+  
+  .box .left{
+    top:-4%;
+  }
+}
+
+@media only screen and (max-width:1098px){
+  .box .right{
+    position:absolute;
+    top:-30%;
+  }
+}
+
+@media only screen and (max-width:1116px){
+  .box .right{
+    position:absolute;
+    top:-30%;
+  }
+}
+
+@media only screen and (max-width:1154px){
+  .box .right{
+    position:absolute;
+    top:-30%;
+  }
+   .box .left{
+    top:-4%;
+  }
+}
+
+@media only screen and (max-width:1181px){
+  .box .right{
+    position:absolute;
+    top:-30%;
+  }
+}
+
+@media only screen and (max-width:1200px){
+  .box .right{
+    position:absolute;
+    top:-30%;
+  }
+   .box .left{
+    top:-4%;
+  }
+  .box .middle{
+    top:-80%;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .box .left h2{
+    font-size: 20px;
+  }
+  
+  .box .left p{
+    font-size: 12px;
+  }
+  
+  .box .middle{
+    position:absolute;
+    top:10%;
+  }
+  
+  .box .right{
+    position:absolute;
+    top:-10%;
+    
+  }
+  
+  .box .right h2{
+    font-size: 17px;
+  }
+  
+  .box .right h1{
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width:744px){
+  .box .left{
+    position:absolute;
+    left:-2%;
+  }
+}
+
+@media only screen and (max-width:693px){
+  .box .left{
+    position:absolute;
+    left:-4%;
+  }
+  .headings{
+    position:absolute;
+    left:30%;
+  }
+}
+
+
+
+
+
+@media only screen and (max-width:674px){
+  
+  .headings h2{
+    font-size:15px;
+  }
+  .headings{
+    position:absolute;
+    left:15%;
+    width:60%;
+  }
+  .headings{
+    position:absolute;
+    left:25%;
+  }
+  .box .middle{
+    width:100%;
+    position:absolute;
+    left: 10%;
+  }
+  .box .left {
+    position:absolute;
+    top:250%;
+    width:170%;
+    left:-40%;
+
+  }
+  .box .left h2{
+    position:relative;
+    left:34%;
+    top:50px;
+
+  }
+  .box .left p{
+    position:relative;
+    top:50px;
+    left:10%;
+    font-size:20px;
+
+  }
+  
+  .box .right{
+    position:relative;
+    margin-top:5%;
+    top:150%;
+    left:-50%;
+    width:170%;
+    height:60%;
+  }
+  
+  .box .right p{
+    position:relative;
+    top:43%;
+    margin-left:25%;
+    margin-top: %;
+  }
+  .box .right h2{
+    position:relative;
+    top:43%;
+    margin-left:15%;
+    margin-top:10%;
+  }
+  .box .right h1{
+    position:relative;
+    top:50%;
+    left:5%;
+  }
+  
+   .box .right{
+    margin-top: 45%;
+    position:absolute;
+    top:25%;
+    height:170%;
+  }
+ 
+  
+  
+  .box .left h2{
+    position:relative;
+    top:5%;
+    margin-left:12%;
+  }
+  .box .left p{
+    text-align:center;
+    margin-left:-14%;
+  }
+}
+
+@media only screen and (max-width:644px){
+  .headings{
+    position:absolute;
+    left:15%;
+    width:60%;
+  }
+  
+  .box .right{
+    margin-top: 45%;
+    position:absolute;
+    top:25%;
+    height:170%;
+  }
+ 
+  
+  .box .left{
+    position:relative;
+    margin-top:65%;
+    top:10px;
+    height:140%;
+  }
+  .box .left h2{
+    position:relative;
+    top:5%;
+    margin-left:12%;
+  }
+  .box .left p{
+    text-align:center;
+    margin-left:-14%;
+  }
+}
+
+@media only screen and (max-width:629px){
+  
+  .headings h2{
+    font-size:15px;
+  }
+  .headings{
+    position:absolute;
+    left:25%;
+  }
+  .box .middle{
+    width:100%;
+    position:absolute;
+    left: 10%;
+  }
+  .box .left {
+    position:absolute;
+    top:150%;
+    width:170%;
+    left:-40%;
+
+  }
+  .box .left h2{
+    position:relative;
+    left:30%;
+    top:30px;
+
+  }
+  .box .left p{
+    position:relative;
+    top:50px;
+    left:10%;
+    font-size:20px;
+
+  }
+  
+  .box .right{
+    position:absolute;
+    top:100%;
+    left:-50%;
+    width:170%;
+  }
+  
+  .box .right p{
+    position:relative;
+    top:-5%;
+    margin-left:25%;
+  }
+  .box .right h2{
+    position:relative;
+    top:-5%;
+    margin-left:15%;
+  }
+  .box .right h1{
+    position:relative;
+    top:-5%
+  }
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE.html>
+<html>
+    <head>
+        <title>117320641</title>
+        <link href ="mystylesheet.css" rel="stylesheet" type="text/css">
+        
+        
+        
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css" />
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+			$('#pagepiling').pagepiling();
+    		  });
+    		  
+		</script>
+    
+
+    </head>
+    
+    <body>
+        
+        
+        
+        <header>
+    		<div class = "container">
+    			<div id = "logo">
+    				<h1> IS1113 Project </h1>
+    			</div>
+    		</div>
+       
+
+        
+         <br>
+        <br>
+        <br>
+        <br>
+        
+       <div id ="pagepiling">
+       	
+       	
+	        
+		        <div id="section1">
+    		        <h2 class="section">London</h2>
+		        
+		        
+		        
+		        	<div id ="sidebar">
+              <div class="toggle" onclick="slide()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+              </div> 
+                <ul >
+                    <li><a href = "homepage.html">Home</a></li>
+                    <li><a href = "CV.html">CV</a>
+                    	<ul>
+                        	<li><a href = "cv_page1.html"> Personal Details </a></li>
+                        	<li><a href = "cv_page2.html"> Education </a></li>
+             				<li><a href = "cv_page3.html"> Work Experience </a></li>
+             			</ul>
+                    </li>
+                    <li><a href = "interests.html">Interests</a>
+                    	<ul>
+                        	<li><a href = "sports.html">Sports </a></li>
+        					<li><a href = "travel.html">Travel</a></li>
+                        	<li><a href = "cloud-services.html"> Cloud Services </a></li>
+                        </ul>
+                    </li>
+                    <li><a href = "#">E-Business</a>
+                        <ul>
+                            <li><a href = "#">Home</a></li>
+        					<li><a href = "#">About</a></li>
+                        </ul>
+                    </li>
+                    <li><a href = "Ebus1.php">Shop</a>
+                        <ul>
+                            <li><a href = "#">Products</a></li>
+        					<li><a href = "#">Checkout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+       </div>
+	       <script>
+	            function slide(){
+	            document.getElementById("sidebar").classList.toggle('active');
+	            }
+		   </script>
+				        <div id="section2" class="section">Lisbon</div>
+				        <div id="section3" class="section">New York</div>
+				        <br>
+				        <a href ="cloud-services.html">Cloud Services</a>
+				        </div>
+       </div>
+    
+    
+    
+    
+    
+    </body>
+</html>
