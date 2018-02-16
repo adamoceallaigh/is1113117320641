@@ -31,7 +31,9 @@
                     <a href ="Ebus2.php"><button id="well" disabled >Add To Shopping Cart</button></a>
                     
                 <form method="POST" action="Ebus2.php">
-                        <section class ="content">
+                    
+                    <section class ="content">
+                            
                         <section class= "radios">
                              &nbsp;&nbsp;<input type="radio"  name="product" value="$100.00" onClick ="hi()" class="radio1"> &nbsp;&nbsp; Salesforce @ $100  
                             <br>
@@ -65,7 +67,7 @@
                             
                              <input type ="text" id="subtotal" name ="text" value="0.00" readonly>
                         </section>
-                        </section>
+                    </section>
                         
                         <div>
                         </div> 

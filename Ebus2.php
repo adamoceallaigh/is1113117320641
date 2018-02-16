@@ -1,6 +1,6 @@
  <?php
     session_start();
-   ?>
+  ?>
 
 <!DOCTYPE html>
    
@@ -24,13 +24,15 @@
             <br>
                 
                  
-            <form name="myForm" method= "POST" action="Ebus3.php">
+            <form method= "POST" action="Ebus3.php">
 
-                <label for="total" class="label"> Pin: </label>
+                <label for="pin" class="label"> Pin: </label>
                             
-                <input type="password" placeholder="Enter pin..." id="total" name="text" maxlength="4">
+                <input type="password" placeholder="Enter pin..." id="pin"  maxlength="4">
                              &nbsp;&nbsp;
-                <a href="Ebus3.php"><input type="button" value="Proceed" id="btn" onclick="val()"></a>
+                             
+                             
+                <a href="#" id="btn"><input type="button" value="Proceed"  onclick="val()"></a>
             </form>
             
             
