@@ -2,104 +2,38 @@
 <html>
     <head>
         <title>117320641</title>
-        <link href ="mystylesheet.css" rel="stylesheet" type="text/css">
+        <link href ="interests.css" rel="stylesheet" type="text/css">
         
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         
-        
+       <!-- Page Piling-->
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css" />
-
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
+		
 		<script type="text/javascript">
-		/* global $ */
-			$(document).ready(function() {
-			$('#pagepiling').pagepiling();
-    		  });
-    		  
+		    /* global $ */
+			    $(document).ready(function() {
+			    $('#pagepiling').pagepiling({ 
+    		        });
+			    });
 		</script>
-    
 
     </head>
     
     <body>
-        
-        
-        
-        <header>
-    		<div class = "container">
-    			<div id = "logo">
-    				<h1> IS1113 Project </h1>
-    			</div>
-    		</div>
-       
-
-        
-         <br>
-        <br>
-        <br>
-        <br>
-        
-       <div id ="pagepiling">
-       	
-       	
-	        
-		        <div id="section1">
-    		        <h2 class="section">London</h2>
-		        
-		        
-		        
-		        	<div id ="sidebar">
-              <div class="toggle" onclick="slide()">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-              </div> 
-                <ul >
-                    <li><a href = "homepage.html">Home</a></li>
-                    <li><a href = "CV.html">CV</a>
-                    	<ul>
-                        	<li><a href = "cv_page1.html"> Personal Details </a></li>
-                        	<li><a href = "cv_page2.html"> Education </a></li>
-             				<li><a href = "cv_page3.html"> Work Experience </a></li>
-             			</ul>
-                    </li>
-                    <li><a href = "interests.html">Interests</a>
-                    	<ul>
-                        	<li><a href = "sports.html">Sports </a></li>
-        					<li><a href = "travel.html">Travel</a></li>
-                        	<li><a href = "cloud-services.html"> Cloud Services </a></li>
-                        </ul>
-                    </li>
-                    <li><a href = "#">E-Business</a>
-                        <ul>
-                            <li><a href = "#">Home</a></li>
-        					<li><a href = "#">About</a></li>
-                        </ul>
-                    </li>
-                    <li><a href = "Ebus1.php">Shop</a>
-                        <ul>
-                            <li><a href = "#">Products</a></li>
-        					<li><a href = "#">Checkout</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-       </div>
-	       <script>
-	            function slide(){
-	            document.getElementById("sidebar").classList.toggle('active');
-	            }
-		   </script>
-				        <div id="section2" class="section">Lisbon</div>
-				        <div id="section3" class="section">New York</div>
-				        <br>
-				        <a href ="cloud-services.html">Cloud Services</a>
-				        </div>
-       </div>
-    
-    
-    
-    
-    
+    	<div id = "pagepiling">
+			  <div id="section1" class="section">
+	    		 <h2 >London</h2>
+	    	  </div>	        
+			  
+				    <div id="section2" class="section">Lisbon</div>
+				    <div id="section3" class="section">New York</div>
+	
+			   </div>
+		</div>
     </body>
 </html>

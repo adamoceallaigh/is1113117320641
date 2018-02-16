@@ -1,17 +1,17 @@
 <?php
-session_start();
+ session_start();
 ?>
 
 <!DOCTYPE html>
 <html>
     <head>
-        <title>RECIEPT</title>
+        <title>RECEIPT</title>
     </head>
     
     <body>
-        <h4>RECIEPT</h4>
-        </php
-         echo "Total is"  . $_SESSION["total"] . " .";
+        <h4>RECEIPT</h4>
+        <?php
+          echo "Total is " . $_SESSION["subtotal"] . ".";
         ?>
     </body>
 </html>
