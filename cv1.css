@@ -20,7 +20,7 @@ html,body{
   width:100%;
   margin:0;
   margin-left:0;
-  border:.00000000000001px inset;
+  border:.01px inset;
   border-radius:2%;
 }
 

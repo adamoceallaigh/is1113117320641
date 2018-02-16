@@ -1,0 +1,121 @@
+*{
+  margin:0
+}
+
+html,body{
+  height:150%;
+  width:100%;
+}
+
+
+
+
+body{
+  position:absolute;
+  width:100%;
+  height:150%;
+  top:0%;
+  z-index:1;
+}
+
+img{
+  position:absolute;
+  width:100%;
+  height:100%;
+  z-index:1;
+  opacity:.9;
+}
+
+
+
+ul{
+  background: red;
+  width:100%;
+  padding:2%;
+}
+
+ul li{
+  list-style:none;
+  display:inline;
+  margin:20px;
+  color:white;
+  
+}
+
+ul li:hover{
+  background:white;
+  padding:2%;
+  color:red;
+}
+
+div{
+  height:100%;
+  position:absolute;
+  width:100%;
+ top:100%;
+  background:yellow;
+}
+
+#well{
+  position:absolute;
+  top:70%;
+  left:30%;
+}
+.radios{
+  position:absolute;
+  top:30%;
+  left:25%;
+}
+
+.calculations{
+  position:absolute;
+  top:50%;
+  left:25%;
+}
+
+.content{
+  background:white;
+  border: 2px inset black;
+  height:60%;
+  width:50%;
+  margin-left:20%;
+  margin-top: 10%;
+
+}
+
+#clear{
+  position:absolute;
+  top:70%;
+  left:50%;
+}
+
+.heading{
+  position:absolute;
+  top:8%;
+  left:0%;
+  border: 3px outset black;
+  width:100%;
+  text-align:center;
+}
+
+.heading h1{
+  font-size: 40px;
+  color:red;
+  position:relative;
+  left:-5%;
+}
+
+h2{
+  position:absolute;
+  top:25%;
+  left:40%;
+}
+
+.image{
+  width:7%;
+  height:8%;
+  position:absolute;
+  top:22%;
+  left:60%;
+}
+

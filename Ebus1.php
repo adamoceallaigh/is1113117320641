@@ -4,43 +4,67 @@
             <title>Select Product</title>
             <!--JQuery-->
             <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-            <script type= "text/javascript" src="cost_calc.js"></script>
-            <link href= "Ebus.css" rel= "stylesheet" type= "text/css">
+            <script type= "text/javascript" src="calculation.js"></script>
+            <link href= "ebus.css" rel= "stylesheet" type= "text/css">
             
         </head>
         
         <body>
             
-            <PHP><head><link rel="stylesheet" type="text/css" href="Ebus.css"></head><PHP>
-            <div class ="heading">
-                <h2> Select a Product</h2>
-            </div>
-            
-            <br>
-            <form method="POST" action ="Ebus2.php" name="myForm">
+                <ul>
+                  <li>Home</li>
+                  <li>About</li>
+                  <li>Shop</li>
+                </ul>
                 
-                 <div class ="radios">
-                    <input type="radio"  name="product" value="$100.00" onClick ="disablebtnProceed(); calcSub()" class="radio1">  Salesforce @ $100  <br>
-                    <input type="radio"  name="product" value="$300.00" onClick ="disablebtnProceed(); calcSub()" class="radio2">  Aus @ $300
-                </div>
-            <br>
-            <br>
-            
-            <label for="subtotal" class="label">Sub Total: </label>
-            <input type ="text" id="subtotal" name ="text" value="0.00" readonly><br>
-            
-            <label for="total" class="label"> Total: </label>
-            <input type ="text" id="total" name ="text1" value="0.00" readonly><br>
-            
-            
-            <br>
-            <br>
-            <a href ="Ebus2.php"><input type="button" id="proceed" value="Add To Shopping Cart" disabled></a><br>
-            <br>
-            <br>
-
-            <a href="Ebus1.php"><input type="button" class="clear" value="Clear Choice"></a>
-            
-        </form>       
+                <section class="heading">
+                  <h1>Select Product</h1>
+                </section>
+                
+                <img src ="https://freeiconshop.com/wp-content/uploads/edd/cloud-flat.png" class="image">
+                <h2>Pick A Cloud Service</h2>
+                <br>
+                <a href ="Ebus1.php"><button id ="clear" value="Clear Choice">Clear Choice</button></a>
+                
+                <button id="well" disabled>Add To Shopping Cart</button>
+                
+                <section class ="content">
+                <section class= "radios">
+                     &nbsp;&nbsp;<input type="radio"  name="product" value="$100.00" onClick ="hi()" class="radio1"> &nbsp;&nbsp; Salesforce @ $100  
+                    <br>
+                    <br>
+                     &nbsp;&nbsp;<input type="radio"  name="product" value="$200.00" onClick ="hi()" class="radio2"> &nbsp;&nbsp; Cloud 9 @ $200 <br>
+                    <br>
+                    &nbsp;&nbsp;<input type="radio"  name="product" value="$300.00" onClick ="hi()" class="radio2">&nbsp;&nbsp;&nbsp;  AWS @ $300
+                    <br>
+                    <br>
+                    &nbsp;&nbsp;<input type="radio"  name="product" value="$400.00" onClick ="hi()" class="radio2">&nbsp;&nbsp;  &nbsp;Gmail @ $400<br>
+                    <br>
+                    <br>
+                    <br>
+                </section>
+                
+                <section class="calculations">
+                     <label for="subtotal" class="label">&nbsp;&nbsp;Sub Total: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    
+                     <input type ="text" id="subtotal" name ="text" value="0.00" readonly>
+                        <br>
+                        <br>
+                    
+                    <label for="subtotal" class="label">&nbsp;&nbsp;Discount @ 5%:&nbsp;&nbsp;&nbsp;<input type ="text" id="vattotal" name ="text" value="0.00" readonly><br>&nbsp;&nbsp;&nbsp;(-Discount) </label>&nbsp;&nbsp;
+                    
+                         <br>
+                         <br>
+                    <label for="subtotal" class="label">&nbsp;&nbsp;Vat @ 10%:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type ="text" id="subtotal" name ="text" value="0.00" readonly><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(-Vat) </label>
+                        <br>
+                        <br>
+                    <label for="subtotal" class="label">&nbsp;&nbsp;Total: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    
+                     <input type ="text" id="subtotal" name ="text" value="0.00" readonly>
+                </section>
+                </section>
+                
+                <div>
+                </div>           
         </body>
     </html>
