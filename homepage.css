@@ -82,12 +82,14 @@ html,body{
   font-family: dancing script;
   position:relative;
   top:28%;
-  left:5%;
+  left:10%;
 }
 
 .images .back a{
   text-decoration:none;
   color:black;
+  position:relative;
+  left:12%;
 }
 
 .images .back a:hover{
@@ -573,52 +575,7 @@ html,body{
 
 
 
-.heading h1{
-  color:black;
-  font-family: Dancing Script;
-  display:inline;
-  position:relative;
-  top:10px;
-  text-align:left;
-  z-index:9;
-  font-size:20px;
-}
 
-.heading{
-  margin-left:2%;
-}
-
-.container ul{
-  position:relative;
-  text-align:center;
-  left:70%;
-  top:-15px;
-
-  
-}
-
-
-
-.container ul li{
-  display:inline;
-  font-size: 20px;
-  font-family: fantasy;
-  color:black;
-  padding:3%;
-}
-
-.container a{
-  text-decoration:none;
-  color:black;
-}
-
-
-
-
-
-.heading a {
-  text-decoration:none;
-}
 
 
 .Welcome{
