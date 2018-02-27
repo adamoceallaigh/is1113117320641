@@ -29,39 +29,11 @@ body,html{
  
 }
 
-.leg img{
-  position:absolute;
-  z-index:4;
-  top:72%;
-  left:15%;
-  width:70%;
-
-}
-
-.leg{
-  animation:leg2 2.5s linear forwards;
-  z-index:9;
-  position:absolute;
-  top:72%;
-  left:15%;
-  width:30%;
-  
-}
-
-
-
-
 
 @keyframes ball{
-  0%{left:50%; top:75%}
-  50%{top:30%;transform:translateX(360%);width:5%}
-  75%{width:3%}
-  100%{visibility: hidden;width:3%}
+  0%{left:50%; top:55%;width:8%}
+  50%{top:35%;width:8% ; left:85% }
+  100%{visibility: hidden;width:8%; top:35%; left:85%}
   
 }
 
-@keyframes leg2{
-  0%{left:15%; top:72%}
-  50%{transform:rotate(-150deg); left:30%; top:80%}
-  100%{position:absolute;top:83%;transform:rotate(-145deg); left:33%;}
-}

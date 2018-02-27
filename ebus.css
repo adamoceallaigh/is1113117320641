@@ -73,8 +73,8 @@ div{
   left:25%;
 }
 
-form .content{
-  background:white;
+.content{
+  background:red;
   border: 2px inset black;
   height:60%;
   width:50%;
