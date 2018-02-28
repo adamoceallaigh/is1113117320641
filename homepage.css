@@ -8,6 +8,55 @@ html,body{
   width:80%;
 }
 
+.heading{
+  margin-left:2%;
+}
+.heading a{
+  text-decoration: none;
+   color:black;
+  font-family: Dancing Script;
+  display:inline;
+  position:absolute;
+  top:10px;
+  text-align:left;
+  z-index:9;
+  font-size:13px;
+}
+
+.container ul{
+  position:relative;
+  text-align:center;
+  left:70%;
+  margin-top:2%;
+
+  
+}
+
+
+
+.container ul li{
+  display:inline;
+  font-size: 20px;
+  font-family: fantasy;
+  color:black;
+  padding:3%;
+}
+
+.container a{
+  text-decoration:none;
+  color:black;
+}
+
+
+
+
+
+.heading a {
+  text-decoration:none;
+}
+
+
+
 .allimages{
   border-radius:50%;
   width:10%;

@@ -1,0 +1,90 @@
+*{
+    margin:0;
+}
+.maldives img {
+    position:absolute;
+    width:30%;
+    height:50%;
+    border-radius:50%;
+    left:35%;
+    top:8%;
+}
+
+.maldives_paragraphs{
+  position:absolute;
+  top:60%;
+  left:2%;
+  
+}
+
+.maldives h1{
+    position:absolute;
+    left:40%;
+    font-family:rancho;
+}
+
+.maldives img {
+    position:absolute;
+    width:30%;
+    height:50%;
+    border-radius:50%;
+    left:35%;
+    top:8%;
+}
+
+.maldives_paragraphs{
+  position:absolute;
+  top:60%;
+  left:2%;
+  
+}
+
+
+
+
+.Chamonix h1{
+    position:absolute;
+    left:40%;
+    top:90%;
+    font-family:rancho;
+}
+
+
+.Chamonix img {
+    position:absolute;
+    width:30%;
+    height:50%;
+    border-radius:50%;
+    left:35%;
+    top:100%;
+}
+
+.Chamonix_paragraphs{
+  position:absolute;
+  top:150%;
+  left:2%;
+  
+}
+.Silicon_Valley h1{
+    position:absolute;
+    left:40%;
+    top:190%;
+    font-family:rancho;
+}
+
+
+.Silicon_Valley img {
+    position:absolute;
+    width:30%;
+    height:50%;
+    border-radius:50%;
+    left:35%;
+    top:200%;
+}
+
+.Silicon_Valley_paragraphs{
+  position:absolute;
+  top:250%;
+  left:2%;
+  
+}
