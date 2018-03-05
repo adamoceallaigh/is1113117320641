@@ -546,8 +546,8 @@ html,body{
   border-radius:50%;
   width:100%;
   height:110%;
-  background:blue;
   position:absolute;
+  background:blue;
   top: 120%;
   left:265%;
   z-index:1;
@@ -569,6 +569,12 @@ html,body{
   
 }
 
+img{
+  border-radius:50%;
+  width:100%;
+  height:110%;
+}
+
 .images6 .front a{
   text-decoration:none;
   color:black;
@@ -577,8 +583,8 @@ html,body{
 
 .images6 .front h1{
   position:absolute;
-  top:65%;
-  left:35%;
+  top:68%;
+  left:22%;
   z-index:8;
   color:white;
   
