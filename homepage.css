@@ -130,8 +130,7 @@ html,body{
   font-size: 15px;
   font-family: dancing script;
   position:relative;
-  top:28%;
-  left:10%;
+  margin-top:28%;
 }
 
 .images .back a{
@@ -139,10 +138,6 @@ html,body{
   color:black;
   position:relative;
   left:12%;
-}
-
-.images .back a:hover{
-  color:red;
 }
 
 
