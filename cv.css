@@ -34,6 +34,11 @@ body,html{
   color:black;
 }
 
+ul li a:hover{
+    text-decoration: none;
+    color:black;
+}
+
 ul{
     width:60%;
     position: absolute;
