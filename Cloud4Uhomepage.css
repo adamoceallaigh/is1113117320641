@@ -320,6 +320,7 @@ i{
 .images{
   position:relative;
   top:20%;
+  left:5%;
 }
 
 .footer{
@@ -370,21 +371,23 @@ h5{
 
 .form{
   position:relative;
-  margin-top:6%;
+  margin-top:4%;
 }
 
 .fa-pencil{
   position:relative;
-  margin-top:-25%;
   margin-left:-10%;
+  margin-top:-2%;
   border: 2px solid #29B6F6;
   background:transparent;
   color:#29B6F6;
+
 }
+
 
 .left2 h2{
   position:relative;
-  margin-top:-11%;
+  margin-top:-8%;
   margin-left: 10%;
   font-family: Schoolbell;
   color:white;

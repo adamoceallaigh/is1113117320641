@@ -8,6 +8,17 @@ html,body{
     width:100%;
 }
 
+
+.sport{
+  position: absolute;
+  top:15%;
+  left:6%;
+  font-family: Dancing Script;
+  text-decoration: underline;
+  transform: rotateZ(-30deg);
+  font-size: 35px;
+}
+
 .container{
     width:100%;
     height:10%;
@@ -60,20 +71,12 @@ ul li a{
 }
 
 
-*{
-  margin:0;
-}
-
-html,body{
-  height:100%;
-  width:100%;
-}
 
 #box{
   position:absolute;
-  top:88%;
-  left:40%;
-  width:20%;
+  top:75%;
+  left:45%;
+  width:15%;
   height:20%;
  z-index:2;
 }
@@ -83,10 +86,13 @@ html,body{
 }
 .background #image{
   position:absolute;
-  width:100%;
-  height:100%;
+  width:60%;
+  height:60%;
   z-index:2;
-  top:10%;
+  top:30%;
+  border-radius:15%;
+  left:20%;
+  
   
 }
 #image.split{
@@ -103,7 +109,7 @@ html,body{
   
 }
 #scoreboard .goal{
-  font-size:55px;
+  font-size:40px;
   font-family:VT323;
   top:20%;
   position:relative;
@@ -113,6 +119,7 @@ html,body{
   left:2%;
   color:white;
   font-family: VT323;
+  font-size:13px;
 }
 
 #scoreboard.down{
@@ -127,18 +134,77 @@ html,body{
 
 .back{
  position:absolute;
-  width:100%;
-  height:100%;
+  width:60%;
+  height:60%;
   background:#26B6F6;
   z-index:1;
-  top:10%;
+  top:30%;
+  left:20%;
+  border-radius:15%;
   
 }
 
+.pool img{
+  position:absolute;
+  width:60%;
+  height:60%;
+  top:150%;
+  left:20%;
+  border-radius:15%;
+}
+
+.football{
+  position:absolute;
+  top:22%;
+  left:47%;
+  font-family:Schoolbell;
+}
+
+.swimming{
+  position:absolute;
+  top:135%;
+  left:47%;
+  font-family:Schoolbell;
+}
+
+.bar{
+  position:absolute;
+  top:250%;
+  left:45%;
+  font-family:Schoolbell;
+}
+
+.explanation{
+  position:absolute;
+  width:60%;
+  top:330%;
+  left:20%;
+}
+
+.pool .writing{
+  position:absolute;
+  top:173%;
+  width:40%;
+  height:35%;
+  left:28%;
+  background:white;
+  z-index:5;
+  opacity:.6;
+}
+
+.fitness img{
+  position:absolute;
+  width:60%;
+  height:60%;
+  top:260%;
+  left:20%;
+  border-radius:15%;
+}
+
 @keyframes mob{
-  0%{left:45%; top:88%;width:20%; opacity:1;z-index:2}
-  50%{top:42%;width:15% ; left:80%;opacity:1;z-index:2 }
-  100%{width:15%; top:42%; left:80%;opacity:0; z-index:-10}
+  0%{left:45%; top:75%;width:15%; opacity:1;z-index:2}
+  50%{top:50%;width:10% ; left:65%;opacity:1;z-index:2 }
+  100%{width:10%; top:50%; left:65%;opacity:0; z-index:-10}
   
 }
 
@@ -151,7 +217,7 @@ html,body{
 }
 
 @keyframes score{
-  to{height:60%}
+  to{height:80%}
   from{height:0%}
 }
 

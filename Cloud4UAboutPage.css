@@ -61,7 +61,7 @@ color:#29B6F6;
 .image{
   position:absolute;
   width:106%;
-  height:60%;
+  height:100%;
   left:0%;
   top:10%;
   background:white;
@@ -79,8 +79,8 @@ color:#29B6F6;
 
 .mainheading{
   position:relative;
-  top:-66%;
-  left:35%;
+  top:-62%;
+  left:40%;
   font-family: Arial;
   color:#ff5252;
   font-size: 60px;
@@ -90,8 +90,8 @@ color:#29B6F6;
 
 .cloud4u{
   position:relative;
-  top:-87%;
-  left:48%;
+  top:-72%;
+  left:50%;
   font-size:50px;
   font-family:Yellowtail;
   z-index:4;
@@ -103,7 +103,7 @@ color:#29B6F6;
   color:#29B6F6;
   font-size:20px;
   top:80%;
-  left:50%;
+  left:48%;
   border-radius:50%;
   border:2px solid #29B6F6;
   width:4%
@@ -118,19 +118,17 @@ color:#29B6F6;
   position:absolute;
   width:100%;
   height:103%;
-  top:70%;
+  top:130%;
 
 }
 .about .aboutus{
   position:relative;
   left:50%;
-  top:-2%;
   font-family: rancho;
 }
 .cloud4u2{
   position:relative;
   left:48%;
-  top:-2%;
   font-family: Satisfy;
   color:#29B6F6;
 }
@@ -144,7 +142,7 @@ color:#29B6F6;
 
 .heading{
   position:relative;
-  left:40%;
+  left:28%;
   color:#29B6F6;
   
 }
@@ -172,12 +170,15 @@ color:#29B6F6;
 .job{
   text-align:center;
   color:#29B6F6;
+  position:relative;
+  top:-3%;
+  font-size:27px;
 }
 
 .answer{
   position:relative;
-  top:4%;
-  left:2%;
+  top:-1%;
+  left:-2%;
   color:black;
   font-family: sirin stencil;
   font-size:13px;
@@ -202,13 +203,13 @@ color:#29B6F6;
   width:30%;
   position:relative;
   left:53%;
-  margin-top:-6%;
+  margin-top:-20%;
 }
 
 .logo2 h2{
    margin:0;
   position:relative;
-  top:25%;
+  top:-53%;
   left:25%;
   font-size:20px;
   font-family:Sirin stencil;
@@ -218,14 +219,14 @@ color:#29B6F6;
   position:absolute;
   width:100%;
   height:110%;
-  top:173%;
+  top:233%;
 }
 .team h1{
   position:relative;
   left:45%;
   top:-5%;
   color:#29B6F6;
-  font-family:rancho
+  font-family:rancho;
 }
 
 .line1{
@@ -317,7 +318,7 @@ color:#29B6F6;
   position:absolute;
   width: 100%;
   height:30%;
-  top: 283%;
+  top: 343%;
   background: #29B6F6;
 }
 
@@ -377,13 +378,14 @@ i{
 .images{
   position:relative;
   top:20%;
+  left:5%;
 }
 
 .footer{
   position:absolute;
   width:100%;
   height:60%;
-  top: 313%;
+  top: 373%;
   background: black;
 }
 
@@ -427,12 +429,12 @@ h5{
 
 .form{
   position:relative;
-  margin-top:6%;
+  margin-top:4%;
 }
 
 .fa-pencil{
   position:relative;
-  margin-top:-25%;
+  margin-top:-2%;
   margin-left:-10%;
   border: 2px solid #29B6F6;
   background:transparent;
@@ -441,7 +443,7 @@ h5{
 
 .left2 h2{
   position:relative;
-  margin-top:-11%;
+  margin-top:-8%;
   margin-left: 10%;
   font-family: Schoolbell;
   color:white;
