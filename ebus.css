@@ -45,7 +45,6 @@ img{
 .logo h2{
   margin:0;
   position:relative;
-  top:25%;
   left:15%;
   font-size:20px;
   font-family:Sirin stencil;
@@ -54,9 +53,9 @@ img{
 .logo img{
   width:40%;
   height:80%;
-  position:relative;
-  left:35%;
-  margin-top:-5%;
+  position:absolute;
+  left:30%;
+  top:5%;
 }
 
 ul{
@@ -82,18 +81,18 @@ color:#29B6F6;
 
 #well{
   position:absolute;
-  top:70%;
-  left:30%;
+  top:75%;
+  left:35%;
 }
 .radios{
   position:absolute;
-  top:30%;
+  top:35%;
   left:25%;
 }
 
 .calculations{
   position:absolute;
-  top:50%;
+  top:55%;
   left:25%;
 }
 
@@ -108,8 +107,8 @@ color:#29B6F6;
 
 #clear{
   position:absolute;
-  top:70%;
-  left:50%;
+  top:75%;
+  left:55%;
 }
 
 .heading{
@@ -131,7 +130,7 @@ color:#29B6F6;
 
 h2{
   position:absolute;
-  top:22%;
+  top:25%;
   left:35%;
   font-family:schoolbell;
 }
@@ -140,8 +139,8 @@ h2{
   width:7%;
   height:8%;
   position:absolute;
-  top:20%;
-  left:60%;
+  top:23%;
+  left:55%;
 }
 
 .social{
@@ -208,6 +207,7 @@ i{
 .images{
   position:relative;
   top:20%;
+  left:5%;
 }
 
 .footer{
@@ -272,8 +272,8 @@ h5{
 
 .left2 h2{
   position:relative;
-  margin-top:-11%;
-  margin-left: 10%;
+  margin-top:-9%;
+  margin-left:-25%;
   font-family: Schoolbell;
   color:white;
 }
