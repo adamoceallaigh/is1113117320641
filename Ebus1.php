@@ -1,79 +1,130 @@
+<?php
+//Start the session
+session_start();
+?>
 <!DOCTYPE html>
     <html>
         <head>
-            <title>Select Product</title>
-            
-            <link href="https://fonts.googleapis.com/css?family=Calligraffitti|Delius|Give+You+Glory|La+Belle+Aurore|Oxygen+Mono|Schoolbell|Sirin+Stencil|Sue+Ellen+Francisco|The+Girl+Next+Door" rel="stylesheet">
+             
+          <meta charset= "utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <meta name = "viewport" content = "width= device-width">
+          <meta name = "author" content = "Adam O'Ceallaigh">
+          <meta name = "description" content = "Website For Cloud 4 U">
+          <link href="https://fonts.googleapis.com/css?family=Calligraffitti|Delius|Give+You+Glory|La+Belle+Aurore|Oxygen+Mono|Schoolbell|Sirin+Stencil|Sue+Ellen+Francisco|The+Girl+Next+Door|Erica+One|Modak|Sigmar+One|Indie Flower|Yellowtail|Satisfy|Rancho" rel="stylesheet">
             <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
             <!--JQuery-->
             <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-            <script type= "text/javascript" src="calculation.js"></script>
+            <script type= "text/javascript" src="cost_calc.js"></script>
             <link href= "ebus.css" rel= "stylesheet" type= "text/css">
             
         </head>
         
         <body>
             
-                <div id="header">
+                 <div id="header">
                       <div class="logo">
                         <h2>Cloud 4 U</h2>
                         <img src="https://ak8.picdn.net/shutterstock/videos/15371518/thumb/1.jpg">
                       </div>
                       
-                        <ul>
-                            <li><a href="homepage.html">My Website</a></li>
-                             <li><a href="Cloud4UAboutpage.html">About Us</a></li>
-                             <li><a href="#">About Cloud </a></li>
-                             <li><a href="Ebus1.php">Shop</a></li>
-                        </ul>
-                </div>
+                             <ul>
+                                <li><a href="homepage.html">My Website</a></li>
+                                 <li><a href="Cloud4UAboutpage.html">About Us</a></li>
+                                 <li><a href="AboutCloudServices.html">About Cloud </a></li>
+                                 <li><a href="Ebus1.php">Shop</a></li>
+                              </ul>
+                  </div>
                 
                <section class="heading">
                    <h1>Select Product</h1>
                  </section>
                  
-                 <img src ="https://freeiconshop.com/wp-content/uploads/edd/cloud-flat.png" class="image">
-                 <h2>Pick A Cloud Service</h2>
-                 <br>
-                 <a href ="Ebus1.php"><button id ="clear" value="Clear Choice">Clear Choice</button></a>
                  
-                 <button id="well" disabled>Add To Shopping Cart</button>
+                 
+                 
+                 
+                 
+                <div id="wrapper">
+                     <div class="image">
+                        <img src="https://freeiconshop.com/wp-content/uploads/edd/cloud-flat.png">
+                     </div>
+                      <h2 class="company">Pick A Cloud Service</h2>
+                      
+                      
+                      
+                      
+                      
+                 
+                 <form action="Ebus2.php" method="POST">
                  
                  <section class ="content">
                  <section class= "radios">
-                      &nbsp;&nbsp;<input type="radio"  name="product" value="$100.00" onClick ="hi()" class="radio1"> &nbsp;&nbsp; Salesforce @ $100  
-                     <br>
-                     <br>
-                      &nbsp;&nbsp;<input type="radio"  name="product" value="$200.00" onClick ="hi()" class="radio2"> &nbsp;&nbsp; Cloud 9 @ $200 <br>
-                     <br>
-                     &nbsp;&nbsp;<input type="radio"  name="product" value="$300.00" onClick ="hi()" class="radio2">&nbsp;&nbsp;&nbsp;  AWS @ $300
-                     <br>
-                     <br>
-                     &nbsp;&nbsp;<input type="radio"  name="product" value="$400.00" onClick ="hi()" class="radio2">&nbsp;&nbsp;  &nbsp;Gmail @ $400<br>
-                     <br>
-                     <br>
-                     <br>
+                                  <label for="salesforce">
+                                    <input type ="radio" id="salesforce" name="product" onClick="disablebtnProceed()">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;SalesForce @ $100
+                                </label>
+                                <br>
+                                <br> 
+                                <label for="cloud9">
+                                    <input type="radio" id="cloud9" name="product"  onClick="disablebtnProceed()">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;Cloud 9 @ $200
+                                </label>
+                                <br>
+                                <br> 
+                                
+                                <label for="aws">
+                                    <input type ="radio" id="aws" name="product" onClick="disablebtnProceed()">
+                                   &nbsp;&nbsp;&nbsp;&nbsp;AWS @ $300 
+                                </label>
+                                <br>
+                                <br>
+                                <label for="gmail">
+                                    <input type ="radio" id="gmail" name="product" onClick="disablebtnProceed()">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;Gmail @ $400
+                                </label>
+                                
+                                
+                                
+                               
                  </section>
                  
                  <section class="calculations">
-                      <label for="subtotal" class="label">&nbsp;&nbsp;Sub Total: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <label for="subtotal">&nbsp;&nbsp;Sub Total: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                      
-                      <input type ="text" id="subtotal" name ="text" value="0.00" readonly>
+                      <input type ="text" id="subtotal" name ="subtotal" value="0.00" readonly>
                          <br>
                          <br>
                      
-                     <label for="discounttotal" class="label">&nbsp;&nbsp;Discount @ 5%:&nbsp;&nbsp;&nbsp;<input type ="text" id="discounttotal" name ="text" value="0.00" readonly><br>&nbsp;&nbsp;&nbsp;(-Discount) </label>&nbsp;&nbsp;
+                     <label for="discounttotal">&nbsp;&nbsp;Discount @ 5%:&nbsp;&nbsp;&nbsp;<input type ="text" id="discounttotal" name ="discounttotal" value="0.00" readonly><br>&nbsp;&nbsp;&nbsp;(-Discount) </label>&nbsp;&nbsp;
                      
                           <br>
                           <br>
-                     <label for="vattotal" class="label">&nbsp;&nbsp;Vat @ 10%:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type ="text" id="subtotal" name ="text" value="0.00" readonly><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(-Vat) </label>
+                     <label for="vattotal" >&nbsp;&nbsp;Vat @ 10%:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type ="text" id="vattotal" name ="vattotal" value="0.00" readonly><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(+Vat) </label>
                          <br>
                          <br>
-                     <label for="total" class="label">&nbsp;&nbsp;Total: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <label for="total" >&nbsp;&nbsp;Total: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                      
-                      <input type ="text" id="total" name ="text" value="0.00" readonly>
+                      <input type ="text" id="total" name ="total" value="0.00" readonly>
                  </section>
                  </section>
+                 
+                 <button type ="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+                 
+                 
+                 </form>
+                 
+                 
+                 
+                 
+                 <button onClick="calcSub()" id="well">Calculate Cost</button>
+                 <a role="button" href="Ebus1.php" id="clear">Clear Choice</a>
+                 
+                 
+                  </div>
+                 
+                 
+                 
                  <div class="social">
   <div class="images">
     <a href = "#"><i class="fa fa-facebook fa-2x" aria-hidden="true" ></i></a>
