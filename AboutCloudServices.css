@@ -686,8 +686,10 @@ color:#29B6F6;
 
 .back1 p{
   transform: rotateZ(180deg) rotateY(150deg);
-  position:relative;
-  margin-top:-50%;
+  position:absolute;
+  margin-top:20%;
+  font-size: 15px;
+  z-index:18;
 }
 
 .card1:hover > .front1{

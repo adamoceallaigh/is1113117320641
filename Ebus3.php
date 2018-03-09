@@ -51,24 +51,27 @@ session_start();
     <h4>RECEIPT</h4>
     <br>
     <br>
+    
+    
+    <!--These  php fucntions echo all the other data set in the other ebus pages and input them onto the receipt to be displayed-->
             <br>
             <br>
-           <?php echo "<em>Username:</em>&nbsp;&nbsp;". $_SESSION["username"]; ?>
+           <?php echo "<b>Username:</b>&nbsp;&nbsp;". $_SESSION["username"]; ?>
             <br>
             <br>
-            <?php echo "<em>Email:</em>&nbsp;&nbsp;". $_SESSION["email"] . "."; ?>
+            <?php echo "<b>Email:</b>&nbsp;&nbsp;". $_SESSION["email"]; ?>
             <br>
             <br>
-            <?php echo "<em>Subtotal:</em>&nbsp;&nbsp; &dollar;". $_SESSION["subtotal"]; ?>
+            <?php echo "<b>Subtotal:</b>&nbsp;&nbsp;&dollar;" . $_SESSION["subtotal"]; ?>
             <br>
             <br>
-           <?php echo "<em>Discount:</em>&nbsp;&nbsp; &dollar;". $_SESSION["discounttotal"]; ?>
+           <?php echo "<b>Discount:</b>&nbsp;&nbsp;&dollar;" . $_SESSION["discounttotal"]; ?>
             <br>
             <br>
-           <?php echo "<em>VAT:</em>&nbsp;&nbsp; &dollar; ". $_SESSION["vattotal"]; ?>
+           <?php echo "<b>VAT:</b>&nbsp;&nbsp;&dollar;" . $_SESSION["vattotal"]; ?>
             <br>
             <br>
-            <?php echo "<em>Total:</em>&nbsp;&nbsp; &dollar;". $_SESSION["total"] . "."; ?>
+            <?php echo "<b>Total:</b>&nbsp;&nbsp;&dollar;" . $_SESSION["total"]; ?>
         
         
         

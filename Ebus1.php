@@ -44,7 +44,7 @@ session_start();
                  
                  
                  
-                 
+                 <!--This is the container i use to make the border on my receipt on my ebus pages-->
                 <div id="wrapper">
                      <div class="image">
                         <img src="https://freeiconshop.com/wp-content/uploads/edd/cloud-flat.png">
@@ -57,6 +57,8 @@ session_start();
                       
                  
                  <form action="Ebus2.php" method="POST">
+                 
+                 <!--This posts all the data loaded into the different text boxes into the last Ebus 3 page to be displayed on the receipt-->
                  
                  <section class ="content">
                  <section class= "radios">

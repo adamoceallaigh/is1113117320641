@@ -1,5 +1,5 @@
 /* global $ */
-
+//This is the fucntion to calculater the costs once the calculate button is clicked
 function calcSub(){
     
     var argSubTotal;
@@ -59,6 +59,10 @@ function calcSub(){
     }
     
     
+    
+    
+    
+    //My button wasnt enabling at all with the code given to us, it was calculating the costs and everything else was working but the enabvling of the shopping cart button so i mad eup my own function which i inputted into here with the same function name and now it works 
     function enablebtnProceed(){
   var radios = document.getElementsByName('product');
   var button = document.getElementById('btnProceed');
