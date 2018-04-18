@@ -31,7 +31,7 @@ session_start();
                              <ul>
                                 <li><a href="homepage.html">My Website</a></li>
                                  <li><a href="Cloud4UAboutpage.html">About Us</a></li>
-                                 <li><a href="AboutCloudServices.html">About Cloud </a></li>
+                                 <li><a href="AboutCloudservices.html">About Cloud </a></li>
                                  <li><a href="Ebus1.php">Shop</a></li>
                               </ul>
                   </div>
@@ -44,7 +44,7 @@ session_start();
                  
                  
                  
-                 <!--This is the container i use to make the border on my receipt on my ebus pages-->
+                 <!--This is the container i used to make the border on my receipt on my ebus pages-->
                 <div id="wrapper">
                      <div class="image">
                         <img src="https://freeiconshop.com/wp-content/uploads/edd/cloud-flat.png">
@@ -129,7 +129,7 @@ session_start();
                  
                  <div class="social">
   <div class="images">
-    <a href = "#"><i class="fa fa-facebook fa-2x" aria-hidden="true" ></i></a>
+                    <a href = "#"><i class="fa fa-facebook fa-2x" aria-hidden="true" ></i></a>
 					<a href = "#"><i class="fa fa-twitter fa-2x" aria-hidden="true" ></i></a>
 					<a href = "#"><i class="fa fa-pinterest fa-2x" aria-hidden="true" ></i></a>
 					<a href = "#"><i class="fa fa-snapchat fa-2x" aria-hidden="true" ></i></a>

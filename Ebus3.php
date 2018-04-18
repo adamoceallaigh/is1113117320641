@@ -32,7 +32,7 @@ session_start();
                  <ul>
                     <li><a href="homepage.html">My Website</a></li>
                      <li><a href="Cloud4UAboutpage.html">About Us</a></li>
-                     <li><a href="AboutCloudServices.html">About Cloud </a></li>
+                     <li><a href="AboutCloudservices.html">About Cloud </a></li>
                      <li><a href="Ebus1.php">Shop</a></li>
                   </ul>
         </div>
